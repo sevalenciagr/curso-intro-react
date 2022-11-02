@@ -11,3 +11,8 @@ root.render(
     <App />,
 );
 
+ReactDOM.createPortal(
+    <App />,
+    document.getElementById
+)
+
